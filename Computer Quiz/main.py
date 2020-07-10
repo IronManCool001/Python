@@ -12,11 +12,11 @@ if ans =="Yes" or ans.lower() == "yes":
         print(f"Current Score: {score}")
     else:
         score -= 1
-        print("2. Incorrect \n")
+        print(". Incorrect \n")
         print(f"Current Score: {score}")
     
 
-    print("Is java object-oriented \n")
+    print("2.Is java object-oriented \n")
     ans = input("Yes/No")
     if ans == "Yes" or ans.lower() == "yes":
         score += 1
