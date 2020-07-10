@@ -2,7 +2,7 @@ print("If you think you know all about Computer.Take this quiz \n")
 total_q = 5
 score =0
 
-ans = input("Yes/No")
+ans = input("Start Test(Yes/No)")
 if ans =="Yes" or ans.lower() == "yes":
     print("1. What is the most easiest programming language \n")
     ans = input("Enter your answer here: \n")
