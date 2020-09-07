@@ -31,7 +31,7 @@ use = input('Y/N \n')
 if use =="Y" or use.lower() =="y":
 	ask = input('Want to see what is left[Yes/No]')
 	if ask =="Yes" or ask.lower() =="yes":
-		print("Check the list.txt file")
+		print(f"Check the {file} file")
 		print("Thanks for using the program!")
 	elif ask =="No" or ask.lower() =="no":
 		print("Thanks for using the program")
