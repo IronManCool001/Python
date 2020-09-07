@@ -1,3 +1,4 @@
+import sys
 file = "works.txt"
 run = True
 print("Welcome To The ToDoList Program")
@@ -5,8 +6,8 @@ print("Press Q to exit")
 numberoftodos = 0
 start = input("Start List Yes or No")
 if start == "Q":
-	pres('Ok to confirm')
-	exit()
+	print('Exiting')
+	sus.exit()
 while run:
 	if start =="Yes" or start =="yes":
 		task = str(input("Enter what to do later"))
