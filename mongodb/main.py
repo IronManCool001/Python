@@ -8,7 +8,7 @@ speaker = pyttsx3.init()
 # name = 
 
 
-client = pymongo.MongoClient("mongodb+srv://dev:1234@cluster1.iwxwo.mongodb.net/test?retryWrites=true&w=majority")
+client = pymongo.MongoClient("mongodb+srv://<username>:<password>@cluster1.iwxwo.mongodb.net/<dbname>?retryWrites=true&w=majority")
 
 db = client['test']
 
