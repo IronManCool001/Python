@@ -3,9 +3,9 @@ from pymongo import MongoClient
 import dns
 
 
-client = pymongo.MongoClient("mongodb+srv://Dev:12345678abc@youtube.vzxa2.gcp.mongodb.net/test?retryWrites=true&w=majority")
-db = client['test']
-collection = db['test']
+client = pymongo.MongoClient("mongodb+srv://<username>:<password>@youtube.vzxa2.gcp.mongodb.net/<dbname>?retryWrites=true&w=majority")
+db = client['test'] #db = client[DBNAME]
+collection = db['test'] #collection = db[collection_name]
 
 post1 = {'_id':6,'name':'Technical Friend', 'Subscribers':11}
 post2 = {'_id':2,'name':'Edureka', 'Subscribers':'32million'}
